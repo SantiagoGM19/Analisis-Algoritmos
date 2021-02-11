@@ -1,0 +1,14 @@
+{
+  "name": "analisis-algoritmos",
+  "version": "1.0.0",
+  "description": "Análisis y diseño de algoritmos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santi19",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
