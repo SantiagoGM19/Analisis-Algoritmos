@@ -11,18 +11,19 @@
 
  const ejercicio5 = () => 
  {
-     cont = 0
+     cont = 0;
      for (let i = 0; i < 3; i++) 
      {
         for (let j = 0; j < 5; j++) 
         {
             for (let k = 0; k < 2; k++) 
             {
-                cont++     
+                cont++;     
             }     
         }     
      }
      return cont;
  }
-
+ console.time("ejercicio5");
  console.log("el maniquí se puede vestir de "+ejercicio5()+" maneras distintas");
+ console.timeEnd("ejercicio5");

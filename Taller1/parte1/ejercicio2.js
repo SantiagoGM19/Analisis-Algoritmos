@@ -15,4 +15,6 @@
     console.log("-----------------");
     return cont;    
  }
+ console.time("ejercicio2");
  console.log("se puede viajar de Manizales a Armenia de "+ejercicio2()+" maneras");
+ console.timeEnd("ejercicio2");

@@ -32,5 +32,6 @@ const ejercicio4 = () =>
     console.log("-------------------------------------------------");
     console.log("hay un total de ",contador," embajadores");    
 }
-
+console.time("ejercicio4");
 ejercicio4();
+console.timeEnd("ejercicio4");

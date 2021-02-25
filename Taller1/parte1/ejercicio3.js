@@ -7,11 +7,12 @@
    por combinación si n=15 y k=1 al igual que por permutación
  */
 
-const factorial = require("./Factorial")
+const factorial = require("./Factorial");
 
  const ejercicio3 = () => 
  {
-     return (factorial(15)/factorial(15-1))    
+     return (factorial(15)/factorial(15-1));
  }
-
+ console.time("ejercicio3");
  console.log("se puede comprar un bulto de arroz de "+ejercicio3()+" maneras");
+ console.timeEnd("ejercicio3");

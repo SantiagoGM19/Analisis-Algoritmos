@@ -8,8 +8,8 @@
  const factorial = require('./Factorial');
  const ejercicio6 = () => 
  {
-     return(factorial(15)/(factorial(12)*factorial(3)))    
+     return(factorial(15)/(factorial(12)*factorial(3)));    
  }
-
+ console.time("ejercicio6");
  console.log("se pueden hacer "+ejercicio6()+" combinaciones");
-
+ console.timeEnd("ejercicio6");
