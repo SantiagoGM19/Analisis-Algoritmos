@@ -2,13 +2,16 @@
   "name": "analisis-algoritmos",
   "version": "1.0.0",
   "description": "Análisis y diseño de algoritmos",
-  "main": "index.js",
+  "main": "api-ejercicios/index.js",
   "scripts": {
+    "dev": "nodemon api-ejercicios/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Santi19",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
     "yargs": "^16.2.0"
   }
 }
